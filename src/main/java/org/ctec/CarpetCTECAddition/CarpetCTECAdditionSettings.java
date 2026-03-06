@@ -24,6 +24,8 @@ import carpet.settings.Rule;
 
 public class CarpetCTECAdditionSettings {
     public static final String CTEC = "CTEC";
+    public static final String CREATIVE = "creative";
+    public static final String EXTRAS = "extras";
 //    @Rule(
 //        desc = "Test rule for Carpet CTEC Addition",
 //        category = {CTEC},
@@ -32,7 +34,7 @@ public class CarpetCTECAdditionSettings {
 //    public static String testRule = "false";
     @Rule(
         desc = "Note blocks no longer change notes when right-clicked on",
-        category = {CTEC},
+        category = {CTEC, EXTRAS, CREATIVE},
         options = {"true", "false"}
     )
     public static String staticNoteBlock = "false";
