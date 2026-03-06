@@ -30,4 +30,11 @@ public class CarpetCTECAdditionSettings {
 //        options = {"true", "false"}
 //    )
 //    public static String testRule = "false";
+    @Rule(
+        desc = "Note blocks no longer change notes when right-clicked on",
+        category = {CTEC},
+        options = {"true", "false"}
+    )
+    public static String staticNoteBlock = "false";
+
 }
